@@ -24,8 +24,7 @@ function lessThanBiggerThan(num, compare)
 // Mostra o resultado da comparação na tela
 function buttonClick()
 {
-    var userNumber = +input.value;
-    var answerText = lessThanBiggerThan(userNumber, 10);
+    var answerText = lessThanBiggerThan(+input.value, 10);
     answer.innerHTML = answerText;
 }
 
